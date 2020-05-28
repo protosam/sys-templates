@@ -1,0 +1,5 @@
+user = __DBUSER__
+password = __PASSWORD__
+dbname = __DBNAME__
+query = SELECT email FROM mail_users WHERE email='%s'
+hosts = localhost
