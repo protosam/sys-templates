@@ -1,0 +1,5 @@
+user = __DBUSER__
+password = __PASSWORD__
+dbname = __DBNAME__
+query = SELECT domain AS virtual FROM mail_domains WHERE domain='%s'
+hosts = localhost
