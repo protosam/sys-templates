@@ -1,0 +1,5 @@
+user = __DBUSER__
+password = __PASSWORD__
+dbname = __DBNAME__
+query = SELECT destination FROM mail_forwardings WHERE source='%s'
+hosts = localhost
